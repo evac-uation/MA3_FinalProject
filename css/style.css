@@ -1,0 +1,35 @@
+.stymie_reg{
+    font-family: "stymie", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.stymie_black{
+    font-family: "stymie", serif;
+    font-weight: 900;
+    font-style: normal;
+}
+
+.stymie_cond_reg{
+    font-family: "stymie-condensed", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.stymie_cond_med{
+    font-family: "stymie-condensed", serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.stymie_dcd_reg{
+    font-family: "stymie-dc-d", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.stymie_sc_reg{
+    font-family: "stymie-sc", serif;
+    font-weight: 400;
+    font-style: normal;
+}
