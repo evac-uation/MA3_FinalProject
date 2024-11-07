@@ -41,7 +41,7 @@
 
 
 .dropbtn2 {
-    background-color: #707b5f;
+    background-color: #8c967b;
     color: #bfc3b7;
     border: none;
   }
@@ -79,4 +79,30 @@
 
   .dropbtn2:hover {
     color:#dbded7;
+  }
+
+  .img{
+    opacity: 1;
+  }
+
+  .img:hover {
+    opacity:0.7;
+  }
+  
+  .img:hover {
+    opacity:0.8;
+    transform: scale(0.9);
+  }
+
+  div.scroll-container {
+    background-color: #eae3d3;
+    overflow: auto;
+    white-space: nowrap;
+    padding: 10px;
+    height: 400px;
+
+  }
+  
+  div.scroll-container img {
+    padding: 10px;
   }
