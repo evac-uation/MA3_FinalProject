@@ -126,7 +126,7 @@
     text-align: left;
   }
 
-  .container {
+  .contain {
     display: flex;
     align-items: center;
     justify-content: center
@@ -147,4 +147,3 @@
     margin-right: auto;
   }
 
-  
