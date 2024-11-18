@@ -13,8 +13,15 @@ window.onload = function() {
       document.getElementById("myImg1").onclick = imageOnClick;
       document.getElementById("myImg2").onclick = imageOnClick;
       document.getElementById("myImg3").onclick = imageOnClick;
-      document.getElementById("myImg4").onclick = imageOnClick;
       document.getElementById("myImg5").onclick = imageOnClick;
+      document.getElementById("myImg6").onclick = imageOnClick;
+      document.getElementById("myImg7").onclick = imageOnClick;
+      document.getElementById("myImg8").onclick = imageOnClick;
+      document.getElementById("myImg10").onclick = imageOnClick;
+      document.getElementById("myImg12").onclick = imageOnClick;
+      document.getElementById("myImg13").onclick = imageOnClick;
+      document.getElementById("myImg14").onclick = imageOnClick;
+      document.getElementById("myImg15").onclick = imageOnClick;
 
     var span = document.getElementsByClassName("close")[0];
   
