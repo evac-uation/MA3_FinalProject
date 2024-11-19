@@ -1,49 +1,24 @@
-.stymie_reg{
-    font-family: "stymie", serif;
-    font-weight: 400;
-    font-style: normal;
-}
-
-.stymie_black{
-    font-family: "stymie", serif;
-    font-weight: 900;
-    font-style: normal;
-}
-
-.stymie_cond_reg{
-    font-family: "stymie-condensed", serif;
-    font-weight: 400;
-    font-style: normal;
-}
-
-.stymie_cond_med{
-    font-family: "stymie-condensed", serif;
-    font-weight: 500;
-    font-style: normal;
-}
-
-.stymie_dcd_reg{
-    font-family: "stymie-dc-d", serif;
-    font-weight: 400;
-    font-style: normal;
-}
-
-.stymie_sc_reg{
-    font-family: "stymie-sc", serif;
-    font-weight: 400;
-    font-style: normal;
-}
-
-
-.rocareg {
-  font-family: "roca", sans-serif;
+.ivyreg {
+  font-family: "ivypresto-headline", serif;
   font-weight: 400;
   font-style: normal;
 }
 
-.rocathin {
-  font-family: "roca", sans-serif;
-  font-weight: 100;
+.ivybold {
+  font-family: "ivypresto-headline", serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.mundialitalic {
+  font-family: "mundial", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.mundialreg {
+  font-family: "mundial", sans-serif;
+  font-weight: 400;
   font-style: normal;
 }
 
@@ -102,6 +77,7 @@
     white-space: nowrap;
     padding: 10px;
     height: 400px;
+    overflow-y: hidden; 
 
   }
 
@@ -112,6 +88,8 @@
     padding: 10px;
     height: 320px;
     width: 100vw;
+    scrollbar-width: thin;
+    overflow-y: hidden; 
   }
 
   div.scroll-container2 img {
@@ -250,22 +228,24 @@
 
 .lattes {
   grid-column: 1 / span 2;
-  grid-row: 2;
-
-}
-
-.refreshers {
-  grid-column: 1 / span 2;
   grid-row: 3;
-}
 
+}
 
 .refreshers {
   grid-column: 1 / span 2;
   grid-row: 4;
+}
+
+
+.refreshers {
+  grid-column: 1 / span 2;
+  grid-row: 5;
 }
 
 .slushies {
   grid-column: 1 / span 2;
-  grid-row: 4;
+  grid-row: 6;
 }
+
+

@@ -3,13 +3,104 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home</title>
+    <title>Reviews</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="https://use.typekit.net/fzv2uyb.css">
     <link rel="stylesheet" href="https://use.typekit.net/nvl5fgs.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+
+
+.container {
+    background-color: #dfe5d4;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+    width: 400px;
+    color: #596151;
+}
+
+h1 {
+    font-size: 24px;
+    margin: 0;
+}
+
+.rating {
+    font-size: 20px;
+    margin: 10px 0;
+}
+
+
+
+.stars {
+    font-size: 30px;
+    margin: 10px 0;
+}
+
+.star {
+    cursor: pointer;
+    margin: 0 5px;
+}
+
+.one {
+  color: #ffffff;
+}
+
+.two {
+  color: #ffffff;
+}
+
+.three {
+  color: #ffffff;
+}
+
+.four {
+  color: #ffffff;
+}
+
+.five {
+    color: #ffffff;
+}
+
+textarea {
+    width: 90%;
+    padding: 10px;
+    border: 1px solid #97a18d;
+    border-radius: 4px;
+}
+
+button {
+    background-color: #97a18d;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top:20px;
+}
+
+button:hover {
+    background-color: #79846f;
+}
+
+.reviews {
+    margin-top: 20px;
+    text-align: left;
+}
+
+.review {
+    border: 1px solid #97a18d;
+    border-radius: 4px;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+.review p {
+    margin: 0;
+}
+    </style>
 </head>
 
 <body style="background-color: #fff9ec;" class="ivyreg">
@@ -22,61 +113,60 @@
           <div class="collapse navbar-collapse" id="collapsibleNavbar">
             <ul class="navbar-nav">
               <li class="nav-item">
-                <a class="nav-link indexmargin active dropbtn2" style="color:#414b39" href="index.html">Home</a>
+                <a class="nav-link indexmargin active dropbtn2" style="color:#747c6c;" href="index.html">Home</a>
               </li>
               <li class="nav-item dropdown">
-                <button class="nav-link indexmargin dropbtn2 mundialitalic" style="color:#747c6c;">Menu</button>
+                <button class="nav-link indexmargin dropbtn2 mundialitalic" style="color:#747c6c; background-color:#fff9ec; margin-top:0px">Menu</button>
                   <div class="dropdown-content" style="text-align: center;">
                     <a href="drinks.html">Drinks</a>
                     <a href="desserts.html">Desserts</a>
                   </div>
               </li>
          <li class="nav-item">
-                <a class="nav-link indexmargin" href="reviews.html" style="color:#747c6c">Reviews</a>
+                <a class="nav-link indexmargin" href="reviews.html"  style="color:#414b39">Reviews</a>
               </li> 
             </ul>
           </div>
         </div>
       </nav>
 
-      <h1 style="text-align:center; color:#757d6d; font-size: xxx-large;" class="rocareg"><strong>Chamei Matcha</strong></h1>
-
+      <h1 style="text-align:center; color:#757d6d; font-size: xxx-large;"><strong>Reviews</strong></h1>
+<br><br>
       <div class="contain">
         <div style="float:right">
           <a href="drinks.html">
-            <img src="images/matchaglass-removebg-preview.png" style="height: 400px; margin-left: 30px;" class="img clickableImage">
-          </a>
-          <a href="desserts.html">
-            <img src="images/icecream-removebg-preview.png" style="height: 300px;" class="img clickableImage">
+            <img src="images/latte-removebg-preview.png" style="height: 300px; margin-left: 30px;" class="img clickableImage">
           </a>
         </div>
-        <div class="text mundialitalic p" style="color:#757d6d; margin-right:42px">
-            <p>We are proud to introduce to you our highest</p>
-            <p>Japanese Matcha beverages and desserts.</p>
-            <p> Our menu offers a variety of cheezo fruit tea, floats, </p>
-            <p>frappes, soft-serve ice cream, shaved ice, and taiyaki.</p>
+        <div class="text mundialitalic p" style="color:#757d6d; margin-right:42px; text-align:center;">
+            <p>We value your feedback and appreciate reviews!</p>
+            <p>Tell us your thoughts below:</p>
         </div>
       </div> 
-
-
+<br><br>
+      <div class="container">
+        <h1>Leave a Review!</h1>
+        <div class="rating">
+            <span id="rating">0</span>/5
+        </div>
+        <div class="stars" id="stars">
+            <span class="star" data-value="1">★</span>
+            <span class="star" data-value="2">★</span>
+            <span class="star" data-value="3">★</span>
+            <span class="star" data-value="4">★</span>
+            <span class="star" data-value="5">★</span>
+        </div>
+        <p>Share your review:</p>
+        <textarea id="review"
+                placeholder="Write your review here">
+        </textarea>
+        <button id="submit">Submit</button>
+        <div class="reviews" id="reviews">
+        </div>
+    </div>
+    <script src="script.js"></script>
 
 <br><br>
-<h1 style="text-align:center; color:#757d6d; font-size: xxx-large;" class="rocathin">New Releases</h1>
-<br>
-
-<div class="scroll-container">
-  <img src="images/ad1.jpg" style="height: 400px;">
-  <img src="images/ad3.jpg" style="height: 400px;">
-  <img src="images/ad4.jpg" style="height: 400px;"> 
-  <img src="images/parfait.jpg" style="height: 400px;">
-  <img src="images/ad2.jpg" style="height: 400px;">
-  <img src="images/merch.jpg" style="height: 400px;">
-  <img src="images/fish.jpg" style="height: 400px;">
-</div>
-<br><br><br>
-
-
-
 
 <div class="mb-4 p-4 footer" style="background-color: #cfa7a7; display: flex; align-items: center; justify-content: center; flex-wrap: wrap;">
 
@@ -94,6 +184,7 @@
   </div>
 </div>
 
+<script src="js/chamei.js"></script>
 
 </body>
 </html>
